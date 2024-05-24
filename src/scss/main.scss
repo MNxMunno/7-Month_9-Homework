@@ -15,18 +15,15 @@ a {
   // font-family: sans-serif;
 }
 
-.category {
-  padding-top: 120px;
-}
-.about {
-  padding-top: 120px;
-}
-.login {
-  padding-top: 120px;
+main {
+  padding-top: 100px;
 }
 
 @import "./components/footer";
 @import "./components/header";
 @import "./app/home";
+@import "./app/category";
+@import "./app/about";
+@import "./app/login";
 @import "./static/banner";
 @import "./static/product";

@@ -2,6 +2,7 @@
   background: url("../../assets/images/hero.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+
   .hero-content {
     padding: 120px 0;
     p {
@@ -55,6 +56,11 @@
       display: flex;
       align-items: center;
       gap: 1px;
+      transition: 0.2s;
+      &:hover {
+        background: rgb(229, 189, 78);
+        color: #fff;
+      }
     }
   }
 }
