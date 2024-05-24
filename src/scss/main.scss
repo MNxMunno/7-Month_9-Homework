@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  // font-family: sans-serif;
+}
+
+.category {
+  padding-top: 120px;
+}
+.about {
+  padding-top: 120px;
+}
+.login {
+  padding-top: 120px;
+}
+
+@import "./components/footer";
+@import "./components/header";
+@import "./app/home";
+@import "./static/banner";
+@import "./static/product";

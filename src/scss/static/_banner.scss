@@ -1,0 +1,60 @@
+.banner {
+  background: url("../../assets/images/hero.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .hero-content {
+    padding: 120px 0;
+    p {
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 3px;
+      text-align: left;
+      color: #fff;
+      b {
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-align: left;
+      }
+      .yellow {
+        color: #ffd050;
+      }
+    }
+    h1 {
+      max-width: 803px;
+      //styleName: Display;
+      font-family: sans-serif;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+      text-align: left;
+      color: #fff;
+      padding: 24px 0;
+    }
+    .duis {
+      max-width: 599px;
+      padding: 16px 0 48px;
+    }
+    .link {
+      width: 210px;
+      padding: 16px 48px;
+      background: #ffd050;
+      font-family: sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+      color: #232536;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 1px;
+    }
+  }
+}
